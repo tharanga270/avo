@@ -1,0 +1,25 @@
+@import "/src/styles.scss";
+
+.main-nav {
+  background: transparent !important;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.main-nav .navbar-brand span {
+  color: $header-color-1;
+}
+
+.main-nav .nav-cmn-item .nav-link {
+  color: $header-color-2;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.main-nav .nav-cmn-item .nav-link:hover {
+  color: $header-color-1;
+}
+.main-nav .home-link {
+  color: $header-color-1 !important;
+}

@@ -1,0 +1,56 @@
+@import "/src/styles.scss";
+
+.img-cmn {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 625px;
+}
+.img-1 {
+  background-image: url("../../../../../assets/main-slider/bg_1.jpg.webp");
+}
+.img-2 {
+  background-image: url("../../../../../assets/main-slider/bg_2.jpg.webp");
+}
+
+.main-slider-section:before {
+  width: 65%;
+  left: 0;
+  -ms-transform: matrix(1, 0.102, 0, 2, 0, 0);
+  -webkit-transform: matrix(1, 0.102, 0, 2, 0, 0);
+  transform: matrix(1, 0.102, 0, 2, 0, 0);
+}
+
+.main-slider-section:after,
+.main-slider-section:before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  background: #fff !important;
+  z-index: 2;
+  bottom: -25px;
+}
+
+.main-slider-section:after {
+  width: 35%;
+  right: 0;
+  -ms-transform: matrix(1, -0.19, 0, 2, 0, 0);
+  -webkit-transform: matrix(1, -0.19, 0, 2, 0, 0);
+  transform: matrix(1, -0.19, 0, 2, 0, 0);
+}
+
+.count-number{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14%;
+  text-align: right;
+}
+.count-number .number {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
