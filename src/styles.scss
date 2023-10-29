@@ -13,9 +13,28 @@ body {
 
 /*====start:media quires scss====== */
 @media only screen and (max-width: 1200px) {
+  /*start:main slider section*/
+  .img-cmn {
+    height: 538px;
+  }
+  .img-cmn .container {
+    padding-top: 130px;
+  }
+  .img-cmn .img-video {
+    bottom: -27%;
+  }
+  /*end:main slider section*/
 }
 
 @media only screen and (max-width: 1024px) {
+  /*start:main slider section*/
+  .img-cmn .container {
+    padding-top: 120px;
+  }
+  .img-cmn .img-video {
+    bottom: -27%;
+  }
+  /*end:main slider section*/
 }
 
 @media only screen and (max-width: 992px) {
@@ -25,6 +44,13 @@ body {
   }
   .img-cmn .text h1 {
     font-size: 30px;
+  }
+  .img-cmn .container {
+    padding-top: 170px;
+  }
+  .img-cmn .img-video {
+    bottom: -43%;
+    right: 36%;
   }
   /*end:main slider section*/
 }
