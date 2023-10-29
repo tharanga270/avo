@@ -10,3 +10,15 @@
   font-weight: 900;
   text-transform: uppercase;
 }
+.about-us-section .services {
+    padding: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid red;
+}
+.about-us-section .about-icon{
+    font-size: 60px;
+}
