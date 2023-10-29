@@ -37,7 +37,17 @@ body {
   /*end:main slider section*/
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
+  /*start:header section*/
+
+  // .main-nav {
+  //   background: #000000 !important;
+  //   position: relative;
+  //   top: 0;
+  // }
+
+  /*end:header section*/
+
   /*start:main slider section*/
   .img-cmn .text {
     width: 60%;
@@ -83,9 +93,27 @@ body {
     left: 0;
     top: 0;
   }
+  .img-cmn .img-video {
+    bottom: -8%;
+  }
+  /*end:main slider section*/
+}
+@media only screen and (max-width: 425px) {
+  /*start:main slider section*/
+  .img-cmn .container {
+    padding-top: 120px;
+  }
+  .img-cmn .img-video {
+    bottom: -4%;
+  }
   /*end:main slider section*/
 }
 
 @media only screen and (max-width: 375px) {
+  /*start:main slider section*/
+  .img-cmn .img-video {
+    bottom: 0;
+  }
+  /*end:main slider section*/
 }
 /*====end:media quires scss====== */
