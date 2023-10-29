@@ -1,7 +1,7 @@
 @import "./varibles.scss";
 @import "./mymixin.scss";
 
-/*====common css====== */
+/*====start:common scss====== */
 body {
   font-family: "Nunito Sans", Arial, sans-serif;
   line-height: 1.8;
@@ -9,3 +9,57 @@ body {
 .container {
   max-width: 1000px;
 }
+/*====end:common scss====== */
+
+/*====start:media quires scss====== */
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 992px) {
+  /*start:main slider section*/
+  .img-cmn .text {
+    width: 60%;
+  }
+  .img-cmn .text h1 {
+    font-size: 30px;
+  }
+  /*end:main slider section*/
+}
+
+@media only screen and (max-width: 768px) {
+  /*start:main slider section*/
+  .img-cmn .text {
+    width: 82%;
+    margin-bottom: 4em;
+  }
+  .img-cmn .text h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+  }
+  .img-cmn .slider-rec-btn {
+    padding: 9px;
+  }
+  .count-number {
+    position: relative;
+    width: 50%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .count-number .number {
+    padding-left: 15px;
+    padding-right: 0;
+    font-size: 26px;
+  }
+  .count-number:after {
+    left: 0;
+    top: 0;
+  }
+  /*end:main slider section*/
+}
+
+@media only screen and (max-width: 375px) {
+}
+/*====end:media quires scss====== */
