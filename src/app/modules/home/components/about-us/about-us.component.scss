@@ -28,12 +28,12 @@
 }
 .about-us-section .about-icon {
   font-size: 60px;
-  color: #000000;
+  color: $about-us-color-1;
 }
 .about-us-section .services .media-body h3 {
   font-size: 16px;
   font-weight: 600;
-  color: #000000;
+  color: $about-us-color-1;
   letter-spacing: 2px;
 }
 /*start:about us welcome section*/
@@ -49,12 +49,12 @@
   font-weight: 700;
 }
 .wrap-about p {
-  color: #a0a0b4;
+  color: $about-us-color-2;
 }
 .wrap-about .btn-view-all-projects {
-  background: #d1002c;
-  border: 1px solid #d1002c;
-  color: #fff;
+  background: $about-us-color-3;
+  border: 1px solid $about-us-color-3;
+  color: $about-us-color-4;
   cursor: pointer;
 }
 /*end:about us welcome section*/
@@ -65,7 +65,7 @@
   font-weight: 300;
   font-size: 50px;
   line-height: 1;
-  color: #d1002c;
+  color: $about-us-color-3;
 }
 .wrap-seo .services-2 span:after {
   position: absolute;
@@ -75,7 +75,7 @@
   height: 1px;
   content: "";
   width: 100%;
-  background: #d9d9e1;
+  background: $about-us-color-5;
 }
 .wrap-seo .services-2 .text {
   padding-left: 10px;
@@ -87,6 +87,6 @@
   line-height: 1.3;
 }
 .wrap-seo .services-2 .text p {
-  color: #a0a0b4;
+  color: $about-us-color-2;
 }
 /*end:about us seo section*/
