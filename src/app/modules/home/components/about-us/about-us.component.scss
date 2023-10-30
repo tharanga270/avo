@@ -31,8 +31,30 @@
   color: #000000;
 }
 .about-us-section .services .media-body h3 {
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: 2px;
 }
+/*start:about us welcome section*/
+.wrap-about .img-about {
+  background-image: url("../../../../../assets/about-us/about.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+.wrap-about h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.wrap-about p {
+  color: #a0a0b4;
+}
+.wrap-about .btn-view-all-projects {
+  background: #d1002c;
+  border: 1px solid #d1002c;
+  color: #fff;
+  cursor: pointer;
+}
+/*end:about us welcome section*/
