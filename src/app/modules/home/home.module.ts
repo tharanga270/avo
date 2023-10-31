@@ -9,6 +9,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { OurWorksComponent } from './components/our-works/our-works.component';
 import { ClientsSaysComponent } from './components/clients-says/clients-says.component';
 import { RecentBlogComponent } from './components/recent-blog/recent-blog.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RecentBlogComponent } from './components/recent-blog/recent-blog.compon
     OurWorksComponent,
     ClientsSaysComponent,
     RecentBlogComponent,
+    FooterComponent,
   ],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
