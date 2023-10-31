@@ -7,6 +7,7 @@ import { MainSliderComponent } from './components/main-slider/main-slider.compon
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { OurWorksComponent } from './components/our-works/our-works.component';
+import { ClientsSaysComponent } from './components/clients-says/clients-says.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { OurWorksComponent } from './components/our-works/our-works.component';
     MainSliderComponent,
     AboutUsComponent,
     OurWorksComponent,
+    ClientsSaysComponent,
   ],
   imports: [CommonModule, HomeRoutingModule, CarouselModule],
 })
