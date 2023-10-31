@@ -75,3 +75,24 @@
 .clients-says-section .owl-dots .owl-dot.active:after {
   border: 1px solid #d1002c !important;
 }
+/*==============banner====================*/
+.clients-says-section .banner-img {
+  background-image: url("../../../../../assets/main-slider/bg_1.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.clients-says-section .intro span {
+  color: #d1002c;
+}
+.clients-says-section .intro h2 {
+  font-size: 30px;
+  color: #fff;
+  line-height: 1.2;
+}
+.clients-says-section .intro .btn-get-started {
+  background: #d1002c !important;
+  border: 1px solid #d1002c !important;
+  color: #fff !important;
+  cursor: pointer;
+}
