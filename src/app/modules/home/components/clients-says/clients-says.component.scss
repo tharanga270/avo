@@ -14,7 +14,7 @@
 .testimony-wrap {
   display: block;
   position: relative;
-  background: #f3f3f3;
+  background: $clients-says-color-1;
   padding: 0 20px;
   border-radius: 5px;
 }
@@ -23,15 +23,14 @@
 //     position: relative;
 // }
 .testimony-wrap .my-qute {
-  color: #d1002c;
+  color: $clients-says-color-2;
   font-size: 30px;
   position: absolute;
   top: -15px;
-  //top: 0;
   left: 20px;
 }
 .testimony-wrap .user-comment {
-  color: #a0a0b4;
+  color: $clients-says-color-3;
 }
 .testimony-wrap .user-1 {
   background-image: url("../../../../../assets/our-works/person_1.jpg.webp");
@@ -58,22 +57,22 @@
   font-weight: 600;
   font-size: 18px;
   margin-bottom: 0;
-  color: #000000;
+  color: $clients-says-color-4;
   letter-spacing: 2px;
 }
 .testimony-wrap .position {
   font-size: 16px;
-  color: #b3b3b3;
+  color: $clients-says-color-5;
 }
 .clients-says-section .owl-carousel .owl-stage-outer {
   padding: 1em 0 1em 0;
   position: relative;
 }
 .clients-says-section .owl-theme .owl-dots .owl-dot.active span {
-  background: red;
+  background: $clients-says-color-6;
 }
 .clients-says-section .owl-dots .owl-dot.active:after {
-  border: 1px solid #d1002c !important;
+  border: 1px solid $clients-says-color-2 !important;
 }
 /*==============banner====================*/
 .clients-says-section .banner-img {
@@ -83,16 +82,16 @@
   background-position: center center;
 }
 .clients-says-section .intro span {
-  color: #d1002c;
+  color: $clients-says-color-2;
 }
 .clients-says-section .intro h2 {
   font-size: 30px;
-  color: #fff;
+  color: $clients-says-color-7;
   line-height: 1.2;
 }
 .clients-says-section .intro .btn-get-started {
-  background: #d1002c !important;
-  border: 1px solid #d1002c !important;
-  color: #fff !important;
+  background: $clients-says-color-2 !important;
+  border: 1px solid $clients-says-color-2 !important;
+  color: $clients-says-color-7 !important;
   cursor: pointer;
 }

@@ -4,13 +4,13 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-main-slider',
   templateUrl: './main-slider.component.html',
   styleUrls: ['./main-slider.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
 })
 export class MainSliderComponent {
   customOptions: any = {
     loop: true,
     items: 1,
-    autoplay: false,
+    autoplay: true,
     nav: false,
     autoplayTimeout: 2000,
     dots: true,
