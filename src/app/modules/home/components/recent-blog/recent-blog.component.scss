@@ -5,7 +5,7 @@
   padding: 12em 0 15em 0;
   position: relative;
   z-index: 0;
-  background: #f3f3f3 !important;
+  background: $recent-blog-color-1 !important;
 }
 
 .recent-blog-section .blog-entry .text {
@@ -19,14 +19,14 @@
   font-weight: 400;
 }
 .recent-blog-section .blog-entry .text .heading a {
-  color: #000000;
+  color: $recent-blog-color-2;
   text-decoration: none;
 }
 .vvv {
   border: 1px solid red;
 }
 .recent-blog-section .blog-entry .text .heading a:hover {
-  color: #d1002c;
+  color: $recent-blog-color-3;
 }
 .recent-blog-section .img-blog-cmn {
   overflow: hidden;
@@ -60,7 +60,7 @@
   letter-spacing: 1px;
 }
 .recent-blog-section .blog-entry .meta > div a {
-  color: #000000;
+  color: $recent-blog-color-2;
   text-decoration: none;
 }
 .recent-blog-section .degree-left-footer:before {
@@ -82,7 +82,7 @@
   position: absolute;
   content: "";
   height: 50px;
-  background: black;
+  background: $recent-blog-color-2;
   z-index: 2;
   bottom: -25px;
 }
