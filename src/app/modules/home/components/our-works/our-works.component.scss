@@ -58,6 +58,22 @@
   height: 550px;
   background-image: url("../../../../../assets/our-works/work-2.jpg.webp");
 }
+.portfolio-wrap .img-per-3 {
+  height: 550px;
+  background-image: url("../../../../../assets/our-works/work-3.jpg.webp");
+}
+.portfolio-wrap .img-per-4 {
+  height: 550px;
+  background-image: url("../../../../../assets/our-works/work-4.jpg.webp");
+}
+.portfolio-wrap .img-per-5 {
+  height: 550px;
+  background-image: url("../../../../../assets/our-works/work-5.jpg.webp");
+}
+.portfolio-wrap .img-per-6 {
+  height: 550px;
+  background-image: url("../../../../../assets/our-works/work-6.jpg.webp");
+}
 .portfolio-wrap .text {
   position: relative;
 }
@@ -98,8 +114,7 @@
   margin-bottom: 30px;
   color: #a0a0b4;
 }
-.portfolio-wrap .text .icon .img {
-  background-image: url("../../../../../assets/our-works/person_1.jpg.webp");
+.portfolio-wrap .text .icon .img-person-cmn {
   width: 60px;
   height: 60px;
   -webkit-border-radius: 50%;
@@ -109,6 +124,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.portfolio-wrap .text .icon .sm-person-1 {
+  background-image: url("../../../../../assets/our-works/person_1.jpg.webp");
+}
+.portfolio-wrap .text .icon .sm-person-2 {
+  background-image: url("../../../../../assets/our-works/person_2.jpg.webp");
+}
+.portfolio-wrap .text .icon .sm-person-3 {
+  background-image: url("../../../../../assets/our-works/person_3.jpg.webp");
 }
 .portfolio-wrap .text .icon .position h4 {
   font-size: 16px;
