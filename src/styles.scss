@@ -115,6 +115,25 @@ body {
     margin-bottom: 30px;
   }
   /*end:about us welcome section*/
+
+  /*start:our-works section*/
+  .our-works-section {
+    padding-top: 6em;
+  }
+  .heading-section h2 {
+    font-size: 28px;
+  }
+  .portfolio-wrap .text h2 {
+    font-size: 9vw;
+  }
+  .portfolio-wrap {
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .ftco-section {
+    padding: 6em 0;
+  }
+  /*end:our-works section*/
 }
 @media only screen and (max-width: 425px) {
   /*start:main slider section*/
