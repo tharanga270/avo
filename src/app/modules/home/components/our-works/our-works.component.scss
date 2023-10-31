@@ -1,7 +1,7 @@
 @import "/src/styles.scss";
 
 .bg-light {
-  background: #f3f3f3 !important;
+  background: $our-works-color-1 !important;
   position: relative;
   //padding-bottom: 15em;
   z-index: 0;
@@ -25,7 +25,7 @@
   position: absolute;
   content: "";
   height: 50px;
-  background: #fff !important;
+  background: $our-works-color-2 !important;
   z-index: 2;
   top: -25px;
 }
@@ -97,7 +97,7 @@
   display: block;
   font-size: 12px;
   letter-spacing: 3px;
-  color: #000000;
+  color: $our-works-color-3;
   font-weight: 600;
 }
 .portfolio-wrap .text h2 {
@@ -107,13 +107,13 @@
   letter-spacing: 2px;
 }
 .portfolio-wrap .text h2 a {
-  color: #000000;
+  color: $our-works-color-3;
   padding-bottom: 5px;
   text-decoration: none;
 }
 .portfolio-wrap .text .desc p {
   margin-bottom: 30px;
-  color: #a0a0b4;
+  color: $our-works-color-4;
 }
 .portfolio-wrap .text .icon .img-person-cmn {
   width: 60px;
@@ -137,20 +137,20 @@
 }
 .portfolio-wrap .text .icon .position h4 {
   font-size: 16px;
-  color: black;
+  color: $our-works-color-3;
 }
 .portfolio-wrap .text .icon .position span {
   font-size: 12px;
   letter-spacing: 3px;
-  color: #a0a0b4;
+  color: $our-works-color-4;
 }
 .portfolio-wrap .text .desc .custom-btn {
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 3px;
-  color: #000000;
+  color: $our-works-color-3;
   font-weight: 700;
-  border: 1px solid #d9d9e1;
+  border: 1px solid $our-works-color-5;
   padding: 7px 10px;
   border-radius: 5px;
   text-decoration: none;
@@ -181,7 +181,7 @@
   position: absolute;
   content: "";
   height: 50px;
-  background: #fff !important;
+  background: $our-works-color-2 !important;
   z-index: 2;
   bottom: -25px;
 }
