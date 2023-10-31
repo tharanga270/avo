@@ -143,6 +143,16 @@ body {
     font-size: 28px;
   }
   /*end:clients-says section*/
+
+  /*start:recent-blog section*/
+  .recent-blog-section {
+    //padding: 6em 0;
+    padding-bottom: 15em;
+  }
+  .recent-blog-section .blog-entry {
+    margin-bottom: 30px;
+  }
+  /*end:recent-blog section*/
 }
 @media only screen and (max-width: 425px) {
   /*start:main slider section*/
@@ -153,6 +163,13 @@ body {
     bottom: -4%;
   }
   /*end:main slider section*/
+
+  /*start:recent-blog section*/
+  .recent-blog-section {
+    //padding: 6em 0;
+    padding-top: 6em;
+  }
+  /*end:recent-blog section*/
 }
 
 @media only screen and (max-width: 375px) {
