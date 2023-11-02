@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'app-clients-says',
   templateUrl: './clients-says.component.html',
   styleUrls: ['./clients-says.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
 })
 export class ClientsSaysComponent {
   footerSlider: any = {
